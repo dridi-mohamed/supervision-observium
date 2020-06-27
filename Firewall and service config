@@ -1,0 +1,14 @@
+
+1- befor the installation restaret servive snmp
+
+sudo systemctl reload sshd
+
+2- check if the snmp run or not
+
+sudo systemctl status  sshd
+
+3- enable snmp port 
+
+sudo ufw allow from 192.168.1.243 to any port 161
+
+note: add server IP
