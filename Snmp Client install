@@ -1,0 +1,5 @@
+those the packagen need in the taget machine 
+
+sudo apt update
+sudo apt install snmpd
+
