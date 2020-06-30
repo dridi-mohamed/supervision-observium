@@ -12,3 +12,10 @@ sudo systemctl status  snmpd
 sudo ufw allow from 192.168.1.243 to any port 161
 
 note: add server IP
+
+4- enbale 
+
+sudo ufw enbale 
+
+5- check
+sudo ufw status
