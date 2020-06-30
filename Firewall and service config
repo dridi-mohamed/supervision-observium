@@ -1,11 +1,11 @@
 
 1- befor the installation restaret servive snmp
 
-sudo systemctl reload sshd
+sudo systemctl reload snmpd
 
 2- check if the snmp run or not
 
-sudo systemctl status  sshd
+sudo systemctl status  snmpd
 
 3- enable snmp port 
 
